@@ -26,6 +26,12 @@
           ><span class="logo-span">Web</span>Studio</a
         >
 
+        <button type="button" class="burger">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#MenuButton"></use>
+          </svg>
+        </button>
+
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
@@ -60,7 +66,7 @@
     <main>
       <section id="hero" class="hero-section section">
         <div class="container hero-container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <h1 class="hero-title">Effective Solutions for&nbsp;Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
@@ -505,7 +511,80 @@
       </div>
     </footer>
 
-    <div id="modal" class="backdrop is-open">
+    <div id="mobile-menu" class="mobile-menu .is-open">
+      <div class="mobile-menu-container container">
+        <button type="button" class="mobile-menu-close-button">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#features">Features</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#team">Team</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-contacts-list">
+            <li class="mobile-menu-contacts-item">
+              <a class="mobile-menu-contacts-link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+            <li class="mobile-menu-contacts-item">
+              <a
+                class="mobile-menu-contacts-link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+        </address>
+
+        <ul class="mob-menu-icon-list">
+          <li class="mob-menu-icon-item">
+            <a class="mob-menu-icon-bg" href="">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-icon-item">
+            <a class="mob-menu-icon-bg" href="">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-icon-item">
+            <a class="mob-menu-icon-bg" href="">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="mob-menu-icon-item">
+            <a class="mob-menu-icon-bg" href="">
+              <svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="modal" class="backdrop .is-open">
       <div class="modal">
         <div>
           <button class="modal-btn-close">
