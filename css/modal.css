@@ -46,29 +46,6 @@
     }
 }
 
-.modal-btn-close {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    fill: #2e2f42;
-    top: 24px;
-    right: 24px;
-    background-color: #E7E9FC;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 24px;
-    width: 24px;
-    height: 24px;
-    padding: 0;
-    cursor: pointer;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-btn-close:hover, .modal-btn-close:focus{
-    border: 1px solid #404BBF;
-    background-color: #404BBF;
-    fill:#fff;
-}
 .modal-text{
     color: #2E2F42;
     font-weight: 500;
