@@ -33,6 +33,7 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         gap: 0;
+        padding: 0;
     }
 }
 
